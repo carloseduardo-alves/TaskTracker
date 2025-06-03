@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "description": "Estudar Java",
+    "status": "done",
+    "createdAt": "2025-06-02T14:00:00",
+    "updatedAt": "2025-06-02T15:30:00"
+  },
+  {
+    "id": 2,
+    "description": "Implementar TaskCLI",
+    "status": "in-progress",
+    "createdAt": "2025-06-02T15:35:00",
+    "updatedAt": "2025-06-02T15:50:00"
+  },
+  {
+    "id": 3,
+    "description": "Lavar o carro",
+    "status": "todo",
+    "createdAt": "2025-06-03T09:50:53.2653441",
+    "updatedAt": "2025-06-03T09:50:53.2653441"
+  }
+]
