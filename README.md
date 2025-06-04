@@ -3,7 +3,7 @@ Task Tracker is a simple Command Line Interface (CLI) application built in Java 
 
 ### Requirements
 Before running this project, make sure you have the following tools installed:
-- Java JDK 17+ – required to compile and run the application
+- **Java JDK 17+** – required to compile and run the application
 - Git – to clone the repository (optional, can also download manually)
 - An IDE that supports Java (e.g., Eclipse, IntelliJ IDEA, VSCode with Java Extension Pack)
 - Internet connection to download the Gson library (if not already available)
