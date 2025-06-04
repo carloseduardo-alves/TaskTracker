@@ -18,9 +18,6 @@ Task Tracker is a simple Command Line Interface (CLI) application built in Java 
 📂 Task Structure
 Each task in the JSON file contains the following properties:
 
-json
-Copiar
-Editar
 {
   "id": 1,
   "description": "Buy groceries",
@@ -28,6 +25,7 @@ Editar
   "createdAt": "2025-06-04T12:00:00",
   "updatedAt": "2025-06-04T12:30:00"
 }
+
 💻 How to Use
 ▶️ Running the Application
 Clone the repository:
