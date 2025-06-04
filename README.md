@@ -39,10 +39,7 @@ Before running this project, make sure you have the following tools installed:
 
 ### Task Structure
 Each task in the JSON file contains the following properties:
-#!/bin/bash
 
-# Criar o JSON em um arquivo
-cat << EOF > task.json
 {
   "id": 1,
   "description": "Study Java",
@@ -50,7 +47,6 @@ cat << EOF > task.json
   "createdAt": "2025-06-04T12:00:00",
   "updatedAt": "2025-06-04T12:30:00"
 }
-EOF
 
 ### What I Learned
 - Working with Java I/O and file handling
