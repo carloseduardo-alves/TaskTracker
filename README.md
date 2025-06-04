@@ -4,9 +4,9 @@ Task Tracker is a simple Command Line Interface (CLI) application built in Java 
 ### Requirements
 Before running this project, make sure you have the following tools installed:
 - **Java JDK 17+** – required to compile and run the application
-- Git – to clone the repository (optional, can also download manually)
-- An IDE that supports Java (e.g., Eclipse, IntelliJ IDEA, VSCode with Java Extension Pack)
-- Internet connection to download the Gson library (if not already available)
+- **Git** – to clone the repository (optional, can also download manually)
+- **IDE**: Eclipse, IntelliJ IDEA ou VSCode com Java Extension Pack.
+- **Gson 2.13.1**: Download [https://mvnrepository.com/artifact/com.google.code.gson/gson](https://mvnrepository.com/artifact/com.google.code.gson/gson).
 
 ### Technologies Used
 - Java (JDK 17 or later recommended)
@@ -24,8 +24,9 @@ Before running this project, make sure you have the following tools installed:
 
 ### How to Install and Run
 1. Clone the repository:
-   ``` git clone https://github.com/carloseduardo-alves/TaskTracker.git ```
-   ``` cd TaskTracker ```
+   ```bash
+   git clone https://github.com/carloseduardo-alves/TaskTracker.git
+   cd TaskTracker
 2. Open the project in your IDE (e.g., Eclipse)
 3. Add the Gson library:
     ``` gson-<2.13.1>.jar ```
