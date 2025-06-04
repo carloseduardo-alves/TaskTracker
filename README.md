@@ -15,6 +15,13 @@ Before running this project, make sure you have the following tools installed:
 2. Open the project in your IDE (e.g., Eclipse)
 3. Add the Gson library:
     ``` gson-<2.13.1>.jar ```
+- Right-click the project > Build Path > Configure Build Path
+- Go to the Libraries tab > Add External JARs... > Select the downloaded Gson .jar file
+4. Run the project:
+- Locate the TaskTracker.java (or the main class)
+- Right-click > Run As > Java Application
+- Use the console to follow the menu and manage your tasks interactively
+
 
 📌 Features
 - Add new tasks
