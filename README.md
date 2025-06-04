@@ -26,17 +26,17 @@ Each task in the JSON file contains the following properties:
   "updatedAt": "2025-06-04T12:30:00"
 }
 
-💻 How to Use
-▶️ Running the Application
-Clone the repository:
+How to Use
 
+1. Clone the repository:
 git clone https://github.com/carloseduardo-alves/TaskTracker.git
 cd TaskTracker
-Open the project in Eclipse (or any IDE that supports Java)
 
-Run the main class (e.g., TaskTracker.java)
+2. Open the project in Eclipse (or any IDE that supports Java)
 
-Use the console to interact with the app, you'll see a menu like:
+3. Run the main class (e.g., TaskTracker.java)
+
+4. Use the console to interact with the app, you'll see a menu like:
 --- Task Tracker ---
 1. Add Task
 2. Update Task
@@ -47,37 +47,24 @@ Use the console to interact with the app, you'll see a menu like:
 7. List Tasks by Status
 0. Exit
 Choose an option:
-Input your option number and follow the prompts.
+
+5. Input your option number and follow the prompts.
 
 📁 JSON File
-All tasks are saved in a file called tasks.json
-
-The file is created automatically in the project root if it does not exist
+- All tasks are saved in a file called tasks.json
+- The file is created automatically in the project root if it does not exist
 
 🧪 Error Handling
-Invalid IDs are handled gracefully
-
-Input mismatches and missing data are caught with clear console messages
-
-Prevents duplicate IDs and corrupted JSON
+- Invalid IDs are handled gracefully
+- Input mismatches and missing data are caught with clear console messages
+- Prevents duplicate IDs and corrupted JSON
 
 🧩 What I Learned
-✔ Working with Java I/O and file handling
-✔ Using Gson to serialize and deserialize complex objects
-✔ Building a simple, interactive CLI using Scanner
-✔ Implementing clean logic for task management
-✔ Organizing a Java application with good coding practices
-
-🚀 Future Improvements
-Add task priorities and due dates
-
-Sort tasks by creation or status
-
-Use JavaFX or Swing for a GUI version
-
-Add search functionality
-
-Unit testing with JUnit
+- Working with Java I/O and file handling
+- Using Gson to serialize and deserialize complex objects
+- Building a simple, interactive CLI using Scanner
+- Implementing clean logic for task management
+- Organizing a Java application with good coding practices
 
 📄 License
 This project is licensed under the MIT License.
