@@ -55,5 +55,8 @@ Each task in the JSON file contains the following properties:
 - Implementing clean logic for task management
 - Organizing a Java application with good coding practices
 
+## Acknowledgements
+This project idea was inspired by the Task Tracker challenge from [roadmap.sh](https://roadmap.sh/projects/task-tracker). A great platform with curated project ideas to help developers improve their skills through practice.
+
 ## License
 This project is licensed under the MIT License.
