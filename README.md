@@ -1,5 +1,20 @@
-Task Tracker CLI (Java)
+# Task Tracker CLI (Java)
 Task Tracker is a simple Command Line Interface (CLI) application built in Java to help you manage your to-do list. It allows you to create, update, delete, and track the status of your tasks directly through the console, using Java's Scanner for user input and Gson for JSON serialization.
+
+### Requirements
+Before running this project, make sure you have the following tools installed:
+- Java JDK 17+ – required to compile and run the application
+- Git – to clone the repository (optional, can also download manually)
+- An IDE that supports Java (e.g., Eclipse, IntelliJ IDEA, VSCode with Java Extension Pack)
+- Internet connection to download the Gson library (if not already available)
+
+### How to Install and Run
+1. Clone the repository:
+   ``` git clone https://github.com/carloseduardo-alves/TaskTracker.git ```
+   ``` cd TaskTracker ```
+2. Open the project in your IDE (e.g., Eclipse)
+3. Add the Gson library:
+    ``` gson-<2.13.1>.jar ```
 
 📌 Features
 - Add new tasks
