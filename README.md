@@ -22,8 +22,7 @@ Before running this project, make sure you have the following tools installed:
 - Right-click > Run As > Java Application
 - Use the console to follow the menu and manage your tasks interactively
 
-
-📌 Features
+### Features
 - Add new tasks
 - Update task descriptions
 - Delete tasks
@@ -31,13 +30,13 @@ Before running this project, make sure you have the following tools installed:
 - List all tasks
 - Filter tasks by status: todo, in-progress, done
 
-🛠 Technologies Used
+### Technologies Used
 - Java (JDK 17 or later recommended)
 - Gson – for JSON serialization/deserialization
 - Scanner – for reading user input via console
 - No external frameworks used (except Gson)
 
-📂 Task Structure
+### Task Structure
 Each task in the JSON file contains the following properties:
 
 {
@@ -72,21 +71,12 @@ Choose an option:
 
 5. Input your option number and follow the prompts.
 
-📁 JSON File
-- All tasks are saved in a file called tasks.json
-- The file is created automatically in the project root if it does not exist
-
-🧪 Error Handling
-- Invalid IDs are handled gracefully
-- Input mismatches and missing data are caught with clear console messages
-- Prevents duplicate IDs and corrupted JSON
-
-🧩 What I Learned
+### What I Learned
 - Working with Java I/O and file handling
 - Using Gson to serialize and deserialize complex objects
 - Building a simple, interactive CLI using Scanner
 - Implementing clean logic for task management
 - Organizing a Java application with good coding practices
 
-📄 License
+## License
 This project is licensed under the MIT License.
