@@ -8,6 +8,20 @@ Before running this project, make sure you have the following tools installed:
 - An IDE that supports Java (e.g., Eclipse, IntelliJ IDEA, VSCode with Java Extension Pack)
 - Internet connection to download the Gson library (if not already available)
 
+### Technologies Used
+- Java (JDK 17 or later recommended)
+- Gson – for JSON serialization/deserialization
+- Scanner – for reading user input via console
+- No external frameworks used (except Gson)
+
+### Features
+- Add new tasks
+- Update task descriptions
+- Delete tasks
+- Mark tasks as in progress or done
+- List all tasks
+- Filter tasks by status: todo, in-progress, done
+
 ### How to Install and Run
 1. Clone the repository:
    ``` git clone https://github.com/carloseduardo-alves/TaskTracker.git ```
@@ -22,20 +36,6 @@ Before running this project, make sure you have the following tools installed:
 - Right-click > Run As > Java Application
 - Use the console to follow the menu and manage your tasks interactively
 
-### Features
-- Add new tasks
-- Update task descriptions
-- Delete tasks
-- Mark tasks as in progress or done
-- List all tasks
-- Filter tasks by status: todo, in-progress, done
-
-### Technologies Used
-- Java (JDK 17 or later recommended)
-- Gson – for JSON serialization/deserialization
-- Scanner – for reading user input via console
-- No external frameworks used (except Gson)
-
 ### Task Structure
 Each task in the JSON file contains the following properties:
 
@@ -46,30 +46,6 @@ Each task in the JSON file contains the following properties:
   "createdAt": "2025-06-04T12:00:00",
   "updatedAt": "2025-06-04T12:30:00"
 }
-
-How to Use
-
-1. Clone the repository:
-git clone https://github.com/carloseduardo-alves/TaskTracker.git
-cd TaskTracker
-
-2. Open the project in Eclipse (or any IDE that supports Java)
-
-3. Run the main class (e.g., TaskTracker.java)
-
-4. Use the console to interact with the app, you'll see a menu like:
---- Task Tracker ---
-1. Add Task
-2. Update Task
-3. Delete Task
-4. Mark Task In Progress
-5. Mark Task Done
-6. List All Tasks
-7. List Tasks by Status
-0. Exit
-Choose an option:
-
-5. Input your option number and follow the prompts.
 
 ### What I Learned
 - Working with Java I/O and file handling
